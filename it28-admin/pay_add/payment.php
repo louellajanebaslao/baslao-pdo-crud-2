@@ -1,5 +1,5 @@
 <?php
-require_once 'p_config.php';
+require_once 'payment_config.php';
 
 // Check if form is submitted
 if ($_SERVER["REQUEST_METHOD"] == "POST") {

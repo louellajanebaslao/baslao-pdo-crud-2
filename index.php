@@ -81,7 +81,7 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <a href="admin/payment/payment.php" class="btn btn-primary" id="buyButton">Buy</a>
+                    <a href="it28-admin/pay_add/payment.php" class="btn btn-primary" id="buyButton">Buy</a>
                 </div>
             </div>
         </div>
