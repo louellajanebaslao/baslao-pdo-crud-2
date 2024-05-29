@@ -1,5 +1,12 @@
 <?php
 // Database configuration using PDO
+/*
+$servername = "localhost";
+$username = "u593341949_dev_baslao";
+$password = "20212118Baslao";
+$database = "u593341949_db_baslao";
+*/
+
 $servername = "localhost";
 $username = "root";
 $password = "";
