@@ -23,7 +23,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $stmt->execute([$streetAddress, $city, $state, $postalCode, $country, $paymentId]);
 
     if ($stmt->rowCount() > 0) {
-        echo "Address recorded successfully!";
+        // Redirect to successful.php
+        header("Location: successful.php");
+        exit();
     } else {
         echo "Error: Unable to record address.";
     }
