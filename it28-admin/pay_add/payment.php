@@ -47,6 +47,10 @@ $conn->close();
     <title>Payment</title>
     <style>
         body {
+            background: url(https://i.pinimg.com/originals/6c/59/8b/6c598b8cb38df244eda78f8eb2f6c425.gif);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
             font-family: Arial, sans-serif;
             background-color: #f4f4f4;
             margin: 0;
@@ -57,7 +61,7 @@ $conn->close();
             max-width: 400px;
             margin: 50px auto;
             padding: 20px;
-            background-color: #fff;
+            background-color: transparent;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
